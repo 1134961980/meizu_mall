@@ -1,0 +1,178 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车-我的购物车</title>
+    <link rel="icon" type="image/x-icon" href="./img/index/meizu.png" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/Cart2.css">
+    <script src="./js/jquery/jquery-1.12.4.min.js"></script>
+    <script src="./js/Cart2.js"></script>
+</head>
+
+<body>
+    <div class="head">
+        <div class="w">
+            <div class="nav">
+                <div class="meizu_area" style="height: 1100;">
+                  <a href="./index.html">
+                    <a href="./index.html"><img src="./img/index/meizu_logo.png" alt=""></a>
+                  </a>
+                </div>
+                <div class="flow_chart">
+                    <i>购物车</i>
+                    <span>> 确认订单</span>
+                    <span>> 在线支付</span>
+                    <span>> 完成</span>
+                </div>
+                <div class="nav_r" id="nav_r">
+                    <div class="User_mall" id="User_mall"><a href="#">用户58358...的商城<i id="extend"></i></a>
+                        <div class="user_dw" id="user_dw">
+                            <ul>
+                                <li><a href="./order_form.html">地址管理</a></li>
+                                <li><a href="./order_form.html">我的收藏</a></li>
+                                <li><a href="./order_form.html">我的回购金</a></li>
+                                <li class="last">问题反馈</li>
+                            </ul>
+                            <span>退出</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="order">
+                    <span><a href="#">我的订单</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="w">
+            <div class="caption">
+                <div class="caption1">
+                    <input type="checkbox" class="chose" id="chose1">
+                    <div class="chose_word">全选</div>
+                    <div class="cap_r" id="cap_r">
+                        <ul>
+                            <li class="frist1">单价(元)</li>
+                            <li class="frist2">数量</li>
+                            <li class="frist3">小计(元)</li>
+                            <li class="last">编辑</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caption2">
+                    <input type="checkbox" class="chose"  disabled ="disabled" >
+                    <div class="chose_word">魅族</div>
+                    <span>再买80.00元，即可免运费</span>
+                    <i><a href="#"> 立即凑单 ></a></i>
+                </div>
+            </div>
+            <div class="order2">
+            </div>
+        </div>
+    </div>
+    <div class="goods_all">
+        <div class="w">
+        <input type="checkbox" class="chose">
+            <div class="chose_word2">全选</div>
+        <div class="goods_del">
+            删除选中的商品
+        </div>
+        <div class="chose_goods">
+            共<i class="goods_num">2</i>件商品,
+            已选择<em class="chose_num">0</em>件
+        </div>
+        <div class="goods_discounts">
+          已优惠<i>0.00</i>元，合计(不含运费)：<em>￥<b id="aggregate">0.00</b></em>
+          <span><a href="./order_form.html">去结算</a></span>
+        </div>
+    </div>  
+    </div>
+    <div class="foot">
+        <div class="w footstep">
+            <div class="serve">
+              <ul class="footstep_serve" id="footstep_serve">
+              </ul>
+              <div class="customer_service">
+                <span>周一至周日 8:00-20:00</span>
+                <p>400-788-3333</p>
+                <a href="#"><i>在线客服</i></a>
+              </div>
+            </div>
+            <div class="footstep_row">
+              <ul>
+                <li><a href="#">了解我们</a></li>
+                <b></b>
+                <li><a href="#">加入我们</a></li>
+                <b></b>
+                <li><a href="#">联系我们</a></li>
+                <b></b>
+                <li><a href="#">Flyme</a></li>
+                <b></b>
+                <li><a href="#">魅族社区</a></li>
+                <b></b>
+                <li><a href="#">天猫旗舰店</a></li>
+                <b></b>
+                <li><a href="#">问题反馈</a></li>
+                <b></b>
+                <li><a href="#">线上销售授权名单公示</a></li>
+                <b></b>
+                <li><a href="#">出版物经营许可证</a></li>
+                <b></b>
+                <li>
+                  <i></i>
+                <a href="#">简体中文</a> 
+                </li>
+              </ul>
+              <ol>
+                <li><a href="#">©2020 Meizu Telecom Equipment Co., Ltd. All rights reserved
+                  </a></li>
+                <li><a href="#">
+                  粤ICP备13003602号 合字B2-20170010 营业执照 法律声明
+                </a>
+                </li>
+                <li><a href="#">
+                  <i><img src="./img/index/footstep1 (1).png" alt=""></i>
+                  粤公网安备 44049102496009 号
+                </a></li>
+                <li><a href="#">
+                  <s><img src="./img/index/footstep1 (2).png" alt=""></s>
+                  <s><img src="./img/index/footstep1 (3).png" alt=""></s>
+                  <s><img src="./img/index/footstep1 (4).png" alt=""></s>
+                </a></li>
+              </ol>
+              <div class="footstep_share">
+                  <div class="share1">
+                    <a href="#"></a>
+                    <img src="./img/index/weixiao.png" alt="">
+                  </a>
+                  </div>
+                  <div class="share2">
+                    <a href="#">
+                    <img src="./img/index/weixin1.png" alt="">
+                  </a>
+                  </div>
+                  <div class="share3">
+                    <a href="#">
+                  <img src="./img/index/qq1.png" alt="">
+                </a>
+                </div>
+                  <div class="share4">
+                    <a href="#">
+                    <img src="./img/index/xinlang1.png" alt="">
+                  </a>
+                  </div>
+              </div>
+              <div class="xiao_big">
+                <img src="./img/index/foot7.png" alt="">
+              </div>
+              <div class="wei_big">
+                <img src="./img/index/foot8.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+
+</html>

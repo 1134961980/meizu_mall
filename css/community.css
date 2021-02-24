@@ -1,0 +1,314 @@
+.w{
+    width: 1040px;
+    margin: 0 auto;
+}
+.head{
+    background-color: #484848;
+}
+.nav{
+    height: 36px;
+}
+.nav li a{
+    display:block;
+    margin-right: 22px;
+    color: #aaa;
+    line-height: 36px;
+    height: 36px;
+    float: left;
+}
+.nav .last{
+    float: right;
+}
+.nav .last img{
+    height: 24px;
+    width: 18px;
+    vertical-align: middle;
+}
+.head2{
+    background-color: #fff;
+}
+.subnav{
+    padding-top: 36px;
+    height: 36px;
+}
+.meizu_log{
+    float: left;
+    font-size: 20px;
+    color: #333;
+    padding-right: 148px;
+}
+.meizu_log img{
+    width: 140px;
+    height: 25px;
+    vertical-align: middle;
+}
+.sub_content ul{
+    padding-top: 5px;
+}
+.sub_content li a{
+    color: #515151;
+    font-size: 16px;
+    float: left;
+    margin-right: 40px;
+}
+.subnav input{
+    width: 180px;
+    height: 26px;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    outline: none;
+    position: relative;
+    top: -10px;
+    border-radius: 5px;
+}
+.subnav button img{
+    width: 24px;
+    height: 26px;
+}
+.subnav button{
+    border: 0;
+    position: absolute;
+    right: 246px;
+    top: 74px;
+}
+.user{
+    float: right;
+
+}
+.user img{
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+.content{
+    padding-top: 20px;
+    background-color: #f4f4f4;
+    height: 1600px;
+}
+.con_l{
+    width: 716px;
+    float: left;
+    background-color: #f4f4f4;
+}
+.con_l .banner{
+    width: 716px;
+    height: 318px;
+}
+.con_l .banner img{
+    margin: 10px;
+  width: 686px;
+  height: 286px;
+}
+.con_l .meizu_users{
+    height: 532px;
+}
+.con_l .meizu_users img{
+    width: 716px;
+    height: 532px;
+    margin: 10px;
+}
+.user_tell{
+    height: 600px;
+    margin-top: 20px;
+}
+.user_tell img{
+    margin: 10px;
+}
+.con_r{
+    float: right;
+    width: 304px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.Hot_plate{
+    text-align: center;
+    line-height: 50px;
+}
+.Hot_plate span{
+    text-align: center;
+    color: #333;
+    height: 50px;
+    font-size: 14px;
+}
+.Hot_plate li{
+  display: block;
+  float: left;
+  width: 152px;
+  height: 51px;
+}
+.Hot_plate li:hover{
+    background-color: #999;
+}
+.footstep{
+    height: 248px;
+    width: 1240px;
+   }
+   .serve{
+       margin-top: 60px;
+   }
+   .footstep_serve{
+       height: 85px;
+       float: left;
+   }
+   .serve li{
+       display: block;
+       float: left;
+       width: 150px;
+       height: 69px;
+       text-align: center;
+   }
+   .serve li img{
+       width: 50px;
+       height: 39px;
+       margin: 0 50px;
+   }
+   .serve li span{
+       line-height: 30px;
+       color: #999;
+   }
+   .customer_service{
+      float: right;
+      margin-left: 170px;
+      margin-top: -20px;
+   }
+   .customer_service span{
+       color: #999;
+       font-size: 12px;
+       line-height: 30px;
+       float: right;
+   }
+   .customer_service p{
+       color: #008cff;
+       font-size: 25px;
+       font-weight: 400;
+       margin-top: -6px;
+       line-height: 40px;
+   }
+   .customer_service i{
+       font-style: normal;
+       float: right;
+       height: 30px;
+       padding: 0 16px;
+       text-align: center;
+       line-height: 30px;
+       color: #fff;
+       border-radius: 20px;
+       margin-top: 3px;
+      display: block;
+       font-size: 14px;
+       background: #008cff;
+   }
+   .footstep_row{
+       height: 55px;
+       position: absolute;
+       margin-top: 100px;
+       margin-bottom: 28px;
+       width: 1240px;
+   }
+   .footstep_row ul li{
+       float: left;
+       height: 18px;
+   }
+   .footstep_row ul li a{
+       color: #999;
+   }
+   .footstep_row ul li span img{
+       width: 18px;
+       height: 18px;
+   }
+   .footstep_row ul li span{
+       width: 18px;
+       height: 18px;
+   vertical-align: middle;
+   }
+   .footstep_row b{
+       display: block;
+       float: left;
+       width: 1px;
+       height: 18px;
+       margin: 0 17px;
+       background-color: #999;
+   }
+   .footstep_row ol{
+       float: left;
+       height: 36px;
+       margin-top: 6px;
+   }
+   .footstep_row ol li{
+       display: block;
+       float: left;
+       height: 36px;
+       line-height: 36px;
+       margin-left: 15px;
+       color: #999;
+   }
+   .footstep_row ol li i{
+       display: block;
+       width: 14px;
+       height: 18px;
+       border-radius: 50%;
+       float: left;
+       margin-top: 4px;
+   }
+   .footstep_row ol li i img{
+       width: 100%;
+       height: 100%;
+   }
+   .footstep_row ol li s{
+       display: block;
+       width: 20px;
+       height: 18px;
+       float: left;
+       margin-right: 4px;
+       margin-top: 4px;
+   }
+   .footstep_row ol li s img{
+       width: 100%;
+       height: 100%;
+   }
+   .footstep_share{
+       float: right;
+      height: 36px;
+      margin-top: 6px;
+      
+   }
+   .footstep_share div{
+       width: 20px;
+       height: 20px;
+       float: left;
+       margin-left: 30px;
+       margin-top: 10px;
+   }
+   .footstep_share img{
+       width: 100%;
+       height: 100%;
+   }
+   .share2{
+       position: relative;
+   }
+   .wei_big{
+       width: 180px;
+       height: 180px;
+       position: absolute;
+       top: -150px;
+       right: 0;
+       display: none;
+   }
+   .wei_big img{
+       width: 100%;
+       height: 100%;
+   }
+   .xiao_big{
+       width: 180px;
+       height: 180px;
+       position: absolute;
+       top: -150px;
+       right: 0;
+       display: none;
+   }
+   .xiao_big img{
+       width: 100%;
+       height: 100%;
+   }

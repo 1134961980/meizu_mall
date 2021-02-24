@@ -1,0 +1,343 @@
+.w{
+    width: 1240px;
+    margin: 0 auto;
+}
+.meizu_logo{
+   height: 68px;
+}
+.meizu_area{
+    display: block;
+    width: 110px;
+    height: 20px;
+    padding-top: 30px;
+}
+.meizu_area img{
+    width: 100%;
+    height: 100%;
+}
+.box_heart{
+    height: 750px;
+    background: url(../img/register/heart_pic.png) no-repeat center;
+    position: relative;
+}
+.box_register{
+    width: 298px;
+    position: absolute;
+    top: 10%;
+    right: 50px;
+    background-color: #f4f4f4;
+    padding: 72px 35px 20px;
+    border-radius: 2px;
+    box-shadow: 0 6px 12px 0 rgba(138,153,150,0.15);
+    text-align: center;
+    height: 300px;
+    display:block;
+}
+.computer{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.computer img{
+width: 35px;
+height: 35px;
+}
+.box_register span{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.hint{
+    text-align: center;
+    width: 298px;
+    height: 30px;
+    margin-top: 20px;
+    position: absolute;
+}
+.phone_num{
+    float: left;
+    width: 61px;
+    height: 45px;
+    color: grey;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #999999;
+    font-size: 14px;
+    line-height: 45px;
+  
+}
+.phone_num  #num{
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+}
+.phone_num i{
+    display: inline-block;
+    width: 14px;
+    height: 8px;
+    background: url(../img/register/select.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.box_register ul{
+    position: absolute;
+    cursor: pointer;
+    color: #000000;
+    width: 60%;
+    display: none;
+    top: 246px;
+    z-index: 99;
+}
+.box_register ul .frist{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.box_register ul li{
+    background-color: #fff; 
+    line-height: 32px; 
+    text-align: left;
+    position: relative;
+}
+.box_register li em{
+    text-align: right;
+    font-style: normal;
+    position: absolute;
+    right: 0;
+}
+input{
+    outline: none;
+    border: 1px solid #999999;
+    width: 219px;
+    height:45px;
+    float: left;
+    border-left: 0;
+    padding-left: 15px;
+}
+.phone_box{
+    margin-top: 50px;
+}
+.verify{
+    position: absolute;
+    width: 298px;
+    border: 1px solid #999999;
+    margin-top: 70px;
+    height: 46px;
+    text-align: center;
+}
+.verify .big_cir{
+    width: 24px;
+    height: 24px;
+    border: 1px solid blue; 
+    border-radius: 50%;
+    float: left;
+    background-color: rgb(111, 185, 255);
+    position: absolute;
+    top: 25%;
+    left: 6%;
+}
+.verify .small_cir{
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: 30%;
+    top: 50%;
+    transform: translateX(-100%);
+    transform: translateY(-50%);
+    background-color: rgb(29, 113, 192);
+}
+.verify span{
+    line-height: 46px;
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+    text-align: left;
+    margin-left: -80px;
+}
+
+.sure_agreement{
+    width: 298px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    background-color: #387aff;
+    margin-top: 180px;
+}
+.sure_agreement a{
+    color: #fff;
+    font-size: 14px;
+}
+.meizu_login{
+    margin-top: 40px;
+    text-align: left;
+    position: relative;
+}
+.meizu_login a{
+    color: #387aff;
+    font-size: 18px;
+}
+.meizu_login em{
+    display:inline-block;
+    right: 0px;
+    position: absolute;
+    color: #387aff;
+    font-size: 18px;
+    font-style: normal;
+}
+.box_register2{
+    width: 298px;
+    position: absolute;
+    top: 10%;
+    right: 50px;
+    background-color: #f4f4f4;
+    padding: 72px 35px 20px;
+    border-radius: 2px;
+    box-shadow: 0 6px 12px 0 rgba(138,153,150,0.15);
+    text-align: center;
+    height: 400px;
+    display: none;
+}
+.phone_click{
+        position: absolute;
+        right: 0;
+        top: 0;
+}
+.phone_click img{
+    width: 35px;
+    height: 35px;
+    }
+.handset_two-dimensional{
+    color: black;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.handset_two-dimensional span{
+    display: block;
+    float: left;
+    margin-left: 36px;
+}
+.handset_two-dimensional i{
+    display: block;
+    float: left;
+    font-style: normal;
+    color: #515151;
+}
+.handset_two-dimensional b{
+    display: block;
+     width: 1px;
+     height: 16px;
+     background-color: #666666;
+     margin: 0 28px;
+     float: left;
+     margin-top: 5px;
+}
+.phone_login{
+    outline: none;
+    border: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #fff;
+}
+.verify2{
+     margin-top: 200px;
+}
+.sure_agreement2{
+    margin-top: 270px;
+}
+.two-dimensional_code{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 120px;
+    display: none;
+}
+.two-dimensional_code img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+.foot{
+    height: 131px;
+    margin-top: 50px;
+}
+.f{
+    width: 1000px;
+}
+.foot1 ul{
+    float: left;
+}
+.foot1 ul li{
+    display: block;
+    float: left;
+    line-height: 50px;
+    color: black;
+    font-size: 14px;
+}
+.foot1 ul b{
+    display: block;
+    width: 1px;
+    height: 16px;
+    background-color: black;
+    float: left;
+    margin: 0 14px;
+    margin-top: 18px;
+}
+.foot1_2{
+    float: left;
+    margin-left: 40px;
+}
+.foot1_2 span{
+    margin-right: 10px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 50px;
+}
+.foot1_2 i{
+    font-style: normal;
+    color: #000;
+    margin-right: 10px;
+}
+.foot1_2 a{
+    line-height: 50px;
+    background-color: #387aff;
+    padding: 4px 15px;
+    color: #fff;
+}
+.foot1_3{
+    float: right;
+}
+.foot1_3 img{
+    margin-top: 6px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.big_wei{
+    position: absolute;
+    width: 182px;
+    height: 182px;
+    bottom: -300px;
+    right: 160px;
+    display: none;
+}
+.big_wei img{
+    width: 100%;
+    height: 100%;
+}
+
+.foot2 span{
+    display: block;
+    float: left;
+    padding-top: 20px;
+}
+.foot2 a{
+    display: block;
+    float: left;
+    padding-top: 20px;
+}

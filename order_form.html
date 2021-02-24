@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的订单-魅族商城</title>
+    <link rel="icon" type="image/x-icon" href="./img/index/meizu.png" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/order_form.css">
+    <script src="./js/jquery/jquery-1.12.4.min.js"></script>
+    <script src="./js/order_form.js"></script>
+</head>
+
+<body>
+    <div class="head" id="head">
+        <div class="w">
+            <div class="nav">
+                <div class="meizu_logo">
+                    <a href="#">
+                        <img src="./img/index/meizu_logo.png" alt="" id="meizu_color">
+                    </a>
+                </div>
+                <ul id="top_list">
+                    <li class="top_list1"><a href="./phone.html" class="top_color">手机</a>
+                        <div class="top_list11 phone_list" id="phone_list"></div>
+                    </li>
+                    <li class="top_list1"><a href="./acoustics.html" class="top_color">声学</a>
+                        <div class="top_list11 acoustics_list" id="acoustics_list"></div>
+                    </li>
+                    <li class="top_list1"><a href="#" class="top_color">配件</a>
+                        <div class="top_list11 part_list" id="part_list"></div>
+                    </li>
+                    <li class="top_list1"><a href="./Life_around.html" class="top_color">生活</a>
+                        <div class="top_list11 life_list" id="life_list"></div>
+                    </li>
+                    <li><a href="./Flyme.html" class="top_color">Flyme</a></li>
+                    <li><a href="#" class="top_color">服务</a></li>
+                    <li><a href="./store.html" class="top_color">专卖店</a></li>
+                    <li><a href="./community.html" class="top_color">社区</a></li>
+                    <li><a href="#" class="top_color">企业服务</a></li>
+                    <li class="top_list1"><a href="#" class="top_color">APP下载</a>
+                        <div class="top_list11 APP_dw" id="APP_dw">
+                            <img src="./img/index/APP.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
+                <div class="search">
+                    <input type="text" placeholder="魅族 17">
+                    <a href="#"><button class="btn">
+                            <img src="./img/index/search.png" alt="">
+                        </button></a>
+                </div>
+                <div class="user" id="user">
+                    <a href="./users_login.html">
+                        <img src="./img/index/user2.png" alt="" id="user_color">
+                    </a>
+                    <ul class="user_area" id="user_area">
+                        <li><a href="./users_login.html">立即登录</a></li>
+                        <li><a href="./register.html">立即注册</a></li>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">M码通道</a></li>
+                    </ul>
+                </div>
+                <div class="shop_car">
+                    <a href="./shop_car.html">
+                        <img src="./img/index/shop_car2.png" alt="" id="car_color">
+                    </a>
+                    <div class="shop_car_big">
+                        <div class="panda">
+                            <img src="./img/register/panda.png" alt="">
+                        </div>
+                        <div class="panda_word">
+                            <span>登录后可显示</span>
+                            <p>您账号中已加入的商品哦~</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="w">
+            <div class="flow">首页 > 我的商城 > <a href="#">我的订单</a></div>
+            <div class="sild_nav">
+                <ul>
+                    <li class="first">订单中心</li>
+                    <li id="location_1" class="location_3">我的订单</li>
+                    <li>我的回购单</li>
+                    <li class="first">个人中心</li>
+                    <li id="location_2" class="location_3">地址管理</li>
+                    <li>我的收藏</li>
+                    <li>消息提醒</li>
+                    <li>建议反馈</li>
+                    <li class="first">资产中心</li>
+                    <li>我的优惠券</li>
+                    <li>我的红包</li>
+                    <li>我的回购金</li>
+                    <li class="first">服务中心</li>
+                    <li>退款/退换货</li>
+                    <li>以旧换新</li>
+                </ul>
+            </div>
+            <div class="sild_con">
+                <div class="sild_con2">
+                    <div class="sild_con21">
+                        <span>新增收货地址</span>
+                        <i>（您目前已有地址2个，最多还可以增加8个）</i>
+                    </div>
+                    <div class="sild_con22">
+                        <div class="name">
+                            <span>收货人姓名*</span>
+                            <input type="text" placeholder="长度不超过15个字" value="">
+                        </div>
+                        <div class="phone_num">
+                            <span>收货人手机号码*</span>
+                            <input type="text" placeholder="请输入11位手机号码">
+                        </div>
+                    </div>
+                    <div class="sild_con23">
+                        <span>收货人地址*</span>
+                        <select name="" id="province" class="province">
+                            <option value="">省/直辖市</option>
+                            <option value="">北京</option>
+                            <option value="">山东</option>
+                            <option value="">广东</option>
+                            <option value="">重庆</option>
+                            <option value="">成都</option>
+                        </select>
+                        <select name="" id="province" class="province">
+                            <option value="">城市</option>
+                            <option value="">杭州</option>
+                            <option value="">青岛</option>
+                            <option value="">武汉</option>
+                            <option value="">长沙</option>
+                            <option value="">苏州</option>
+                        </select>
+                        <select name="" id="province" class="province">
+                            <option value="">区/县</option>
+                            <option value="">朝阳区</option>
+                            <option value="">雄安区</option>
+                            <option value="">惠民县</option>
+                        </select>
+                        <select name="" id="province" class="province">
+                            <option value="">乡道/街道</option>
+                            <option value="">联伍乡</option>
+                            <option value="">金乡</option>
+                            <option value="">蓝田乡</option>
+                        </select>
+                    </div>
+                    <div class="sild_con24">
+                        <span>详细 地址*</span>
+                        <input type="text" placeholder="请输入不少于4不超过50个字的详细地址，例如：路名，门牌号">
+                    </div>
+                    <div class="sild_con25">
+                        <input type="checkbox" name="" id="" class="check_box">
+                        <span>设为默认</span>
+                        <div class="sure">保存</div>
+                    </div>
+                <div class="save_address">
+                    <div class="address_have">已有地址</div>
+                    <div class="address_title">
+                        <ul>
+                            <li>收货人姓名</li>
+                            <li>收货人地址</li>
+                            <li>收货人手机号</li>
+                            <li class="last">操作</li>
+                        </ul>
+                    </div>
+                    <div class="address_color"></div>
+                    <div class="address_area">
+                        <div class="address">
+                            <ul>
+                                <li class="address_name">余秋雨</li>
+                                <li class="address_locat">青岛市城阳区青岛农业大学西苑校区</li>
+                                <li class="address_num">15661618181</li>
+                                <li class="address_del"><i class="amend">修改</i>/<i class="del">删除</i></li>
+                                <span>设为默认</span>
+                            </ul>
+                        </div>
+                        <div class="address">
+                            <ul>
+                                <li class="address_name">赵奕</li>
+                                <li class="address_locat">青岛市城阳区青岛农业大学西苑校区</li>
+                                <li class="address_num">15661618181</li>
+                                    <li class="address_del"><i class="amend">修改</i>/<i class="del">删除</i></li>
+                                    <span>设为默认</span>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+   </div>
+</div> 
+    <div id="cover" class="cover" style="background: #000; position: absolute; left: 0px; top: 0px; width: 100%; filter: alpha(opacity=30); opacity: 0.3;"></div>
+    <div class="alert_address">
+        <div class="alert_title">请输入你的新信息</div>
+        <div class="alert_name">
+            <span>收货人姓名*</span>
+             <input type="text"> 
+        </div>
+        <div class="alert_locat">
+            <span>收货人地址*</span>
+        <input type="text">
+        </div>
+        <div class="alert_num">
+            <span class="last">收货人手机号码*</span>
+            <input type="text" name="" id="">
+        </div>
+        <div class="alert_end">
+            <button class="alert_sure">确认</button>
+            <button class="alert_cancel">取消</button>
+        </div>
+    </div>
+    <div class="order_mine">
+        <div class="order_title">
+            <ul class="Otitle_1">
+                <li class="frist">全部订单</li>
+                <li>待付款</li>
+                <li>待发货</li>
+                <li>已发货</li>
+                <li>其它</li>
+            </ul>
+            <div class="order_title1">
+                 <span>订单明细</span>
+                 <ol>
+                     <li>售后</li>
+                     <li>金额</li>
+                     <li>状态</li>
+                     <li>操作</li>
+                 </ol>
+            </div>
+            <div class="order_title2">
+                <span>下单时间:</span>
+                <div id="time"></div>
+                <div class="order_num">
+                    <span>订单号:</span>
+                    <i>51111802331411499102</i>
+                    <b><a href="#">联系客服</a></b>
+                </div>
+            </div>
+        </div>
+        <div class="goods_all">
+            <div class="good">
+                <div class="pic_word">
+                <div class="pic">
+                    <img src="./img/Flyme/phone_goods.png" alt="">
+                </div>
+                <div class="good_word">
+                    <span>魅族 17 Pro 全网通公开版 定白 12+256GB</span>
+                    <i>￥4699 ×1</i>
+                </div>
+            </div>
+            <div class="pic_word pic_word2">
+                <div class="pic">
+                    <img src="./img/Flyme/bag.png" alt="">
+                </div>
+                <div class="good_word">
+                    <span>Lifeme 双肩包 森林</span>
+                    <i>￥299 ×2</i>
+                </div>
+            </div>
+         </div>
+         <ul>
+             <li>
+              <i>￥ 5297</i>   
+             </li>
+             <li>
+                 <span>待付款</span>
+             </li>
+             <li class="last">
+                 <a href="./Cart2.html"><span class="pay_money">立即付款</span></a>
+                 <div class="no_pay">
+                     取消订单
+                    </div>
+             </li>
+         </ul>
+    </div>
+    <div class="blank"></div>
+ </div>
+ <div class="foot">
+    <div class="w footstep">
+        <div class="serve">
+          <ul class="footstep_serve" id="footstep_serve">
+          </ul>
+          <div class="customer_service">
+            <span>周一至周日 8:00-20:00</span>
+            <p>400-788-3333</p>
+            <a href="#"><i>在线客服</i></a>
+          </div>
+        </div>
+        <div class="footstep_row">
+          <ul>
+            <li><a href="#">了解我们</a></li>
+            <b></b>
+            <li><a href="#">加入我们</a></li>
+            <b></b>
+            <li><a href="#">联系我们</a></li>
+            <b></b>
+            <li><a href="#">Flyme</a></li>
+            <b></b>
+            <li><a href="#">魅族社区</a></li>
+            <b></b>
+            <li><a href="#">天猫旗舰店</a></li>
+            <b></b>
+            <li><a href="#">问题反馈</a></li>
+            <b></b>
+            <li><a href="#">线上销售授权名单公示</a></li>
+            <b></b>
+            <li><a href="#">出版物经营许可证</a></li>
+            <b></b>
+            <li>
+              <i></i>
+            <a href="#"><span><img src="./img/Life around/ia_800000031.png" alt=""></span>简体中文</a> 
+            </li>
+          </ul>
+          <ol>
+            <li><a href="#">©2020 Meizu Telecom Equipment Co., Ltd. All rights reserved
+              </a></li>
+            <li><a href="#">
+              粤ICP备13003602号 合字B2-20170010 营业执照 法律声明
+            </a>
+            </li>
+            <li><a href="#">
+              <i><img src="./img/index/footstep1 (1).png" alt=""></i>
+              粤公网安备 44049102496009 号
+            </a></li>
+            <li><a href="#">
+              <s><img src="./img/index/footstep1 (2).png" alt=""></s>
+              <s><img src="./img/index/footstep1 (3).png" alt=""></s>
+              <s><img src="./img/index/footstep1 (4).png" alt=""></s>
+            </a></li>
+          </ol>
+          <div class="footstep_share">
+              <div class="share1">
+                <a href="#"></a>
+                <img src="./img/index/weixiao.png" alt="">
+              </a>
+              </div>
+              <div class="share2">
+                <a href="#">
+                <img src="./img/index/weixin1.png" alt="">
+              </a>
+              </div>
+              <div class="share3">
+                <a href="#">
+              <img src="./img/index/qq1.png" alt="">
+            </a>
+            </div>
+              <div class="share4">
+                <a href="#">
+                <img src="./img/index/xinlang1.png" alt="">
+              </a>
+              </div>
+          </div>
+          <div class="xiao_big">
+            <img src="./img/index/foot7.png" alt="">
+          </div>
+          <div class="wei_big">
+            <img src="./img/index/foot8.jpg" alt="">
+          </div>
+        </div>
+      </div>
+</div>
+</body>
+
+</html>

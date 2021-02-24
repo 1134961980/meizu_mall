@@ -1,0 +1,198 @@
+.w{
+    width: 1366px;
+    margin: 0 auto;
+}
+.header{
+    width: 1240px;
+}
+.nav{
+    height: 90px;
+    position: relative;
+    z-index: 9;
+}
+.meizu_logo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 90px;
+    width: 90px;
+    font-size: 32px;
+    color: rgb(0, 149, 255);
+    font-weight: 900;
+    float: left;
+}
+.nav_r{
+    float: right;
+}
+.nav_r li{
+    float: right;
+    font-size: 16px;
+    line-height: 90px;
+    margin: 0 30px;
+}
+.nav_r li a{
+    color: rgb(0, 149, 255);
+}
+.banner{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1798.64px;
+    height: 478px;
+    top: -90px;
+    overflow: hidden;
+}
+.banner img{
+    height: 440px;
+}
+.banner ul{
+    width: 5398.92px;
+    position: absolute;
+    height: 478px;
+}
+.banner ul li{
+    height: 478px;
+    float: left;
+}
+.banner ol{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 80px;
+    z-index: 99;
+}
+.banner ol li{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    float: left;
+    margin: 0 10px;
+}
+.content{
+    height: 893px;
+    margin-top: -80px;
+    cursor: pointer;
+    width: 1240px;
+}
+.flyme_con_1{
+    width: 850px;
+    height: 510px;
+    float: left;
+    margin-left: 60px;
+    overflow: hidden;
+}
+.flyme_con_1 img{
+    width: 850px;
+    height: 510px;
+    transition: 3s;
+    perspective: 100px;
+   transition: 2s;
+}
+.flyme_con_1 img:hover{
+  transform: scale3d(2);
+}
+.flyme_con_2{
+    float: left;
+    width: 420px;
+    height: 510px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.flyme_con_2 img{
+    width: 100%;
+    height: 100%;
+}
+.flyme_con{
+    height: 250px;
+    margin-left: 60px;
+}
+.flyme_con li{
+    float: left;
+    width: 420px;
+    height: 250px;
+    margin-right: 15px;
+}
+.flyme_con li img{
+    width: 100%;
+    height: 100%;
+}
+.foot{
+    width: 1280px;
+}
+.footer{
+    height: 310px;
+}
+.foot1{
+    height: 22px;
+    margin-left: 30px;
+    padding: 16.38px 0;
+}
+.foot1 li{
+    display: block;
+    line-height: 66px;
+    font-size: 16px;
+    float: left;
+    width: 176px;
+    color: #333;
+    font-weight: 700;
+}
+.foot1 .last{
+    width: 189px;
+    float: right;
+    font-size: 26px;
+    font-weight: 400;
+    margin-right: -12px;
+}
+.foot2{
+    margin-top: 30px;
+    height: 120px;
+    margin-left: 30px;
+}
+.foot2 div{
+    float: left;
+}
+.foot2 soan{
+    display: block;
+    width: 176px;
+    height: 30px;
+    line-height: 30px;
+}
+.foot3{
+    float: right;
+    margin-top: -110px;
+}
+.foot3 p{
+    margin-bottom: 18px;
+}
+.foot3 span{
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: 0;
+    width: 100px;
+    height: 30px;
+    margin-top: 12px;
+    background-color: #0195ff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 36px;
+}
+.foot4{
+    padding-top: 50px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.foot5{
+    margin-left: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.foot5 i{
+ 
+    width: 16px;
+    height: 16px;
+}
+.foot5 i img{
+    width: 14px;
+    height: 14px;
+}

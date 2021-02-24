@@ -1,0 +1,804 @@
+.w{
+    width: 1240px;
+    margin: 0 auto;
+}
+.head{
+    height: 268px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.nav{
+    height: 82px;
+}
+.nav .meizu_logo{
+    width: 125px;
+    height: 24px;
+    padding: 28px 0;
+    float: left;
+}
+.nav .meizu_logo img{
+    width: 100%;
+    height: 100%;
+}
+.nav ul{
+    margin-left: 100px;
+    float: left;
+}
+.nav ul li{
+    text-align: center;
+    float: left;
+    position: relative;
+}
+.nav ul li a{
+    display: block;
+    padding: 31px 20px 30px;
+    line-height: 21px;
+    font-size: 14px;
+    color: #333;
+}
+.nav .search{
+   float: left;
+   margin: 26px 5px 0 10px;
+   width: 170px;
+   height: 30px;
+   line-height: 29px;
+   font-size: 12px;
+   background: #fff;
+   border-radius: 20px;
+   border: 1px solid #999;
+   box-sizing: border-box;
+}
+.nav .search input{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 12px;
+    float: left;
+}
+.nav .search .btn{
+    width: 28px;
+    height: 24px;
+    background-color: #fff;
+    float: left;
+    outline: none;
+    margin-right: 3px;
+    border: 0;
+    margin-top: 2px;
+}
+.nav .search .btn img{
+    width: 60%;
+    height: 60%;
+    margin-right: 3px;
+}
+.nav .user{
+    position: relative;
+}
+.nav .user img{
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 26px;
+    padding-top:4px;
+}
+#user_area{
+    width: 98px;
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+    right: 0px;
+    top: 56px;
+    display: none;
+}
+#user_area li a{
+    display: block;
+    text-align: center;
+   background-color: #fff;
+   line-height: 16px;
+   padding:10px 20px;
+}
+#user_area li a:hover{
+    color: blue;
+}
+.nav .shop_car{
+    float: right;
+    margin: 27px 0 0 8px;
+    width: 22px;
+    height: 22px;
+    padding-top:4px;
+}
+.nav .shop_car img{
+    width: 100%;
+    height: 100%;
+}
+.phone_list{
+    width: 2560px;
+    height: 180px;
+    position: absolute;
+    display: none;
+    left: -100px;
+    top: 56px;
+}
+.box_top{
+    overflow: hidden;
+    padding: 5px 0 20px 0;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    width: 142px;
+}
+.box_top_a{
+    display: block;
+    font-size: 12px;
+    color: #333
+}
+.box_top_a:hover{
+    color: #333;
+}
+.box_top_a img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.box_top span{ 
+    line-height: 14px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width: 131px;
+}
+.acoustics_list{
+    width: 2560px;
+    height: 191px;
+    position: absolute;
+    display: none;
+    left: -250px;
+    top: 60px;
+}
+.part_list{
+    width: 2560px;
+    height: 191px;
+    position: absolute;
+    display: none;
+    left: -300px;
+    top: 54px;
+}
+.life_list{
+    width: 2560px;
+    height: 191px;
+    position: absolute;
+    display: none;
+    left: -350px;
+    top: 58px;
+}
+.APP_dw{
+    width:1240px;
+    height: 300px;
+    position: absolute;
+    display: none;
+    top: 90px;
+ left: -880px; 
+}
+.APP_dw img{
+ width:100%;
+ height:100%;
+}
+#subnav{
+    height: 70px;
+    position: relative;
+    top:    80px;
+    background-color: #f4f4f4;
+}
+.Phone_Brand{
+    height: 70px;
+    font-size: 26px;
+    line-height: 70px;
+    color: #000;
+    float: left;
+}
+.subnav_r{
+    float: right;
+}
+.subnav_r li{
+    float: left;
+    margin-right: 40px;
+    line-height: 70px;
+}
+.subnav_r li a{
+    font-size: 16px;
+    color: #333;
+}
+.subnav_r li a:hover{
+    color: blue;
+}
+.meizu17_shop{
+    height: 1134px;
+    margin-top: 80px;
+}
+.meizu17_show{
+    float: left;
+    height: 734px;
+    width: 560px;
+}
+.meizu17_big{
+    width: 560px;
+    height: 560px;
+}
+.meizu17_big img{
+    width: 100%;
+    height: 100%;
+}
+.meizu17_small{
+    width: 536px;
+    height: 107px;
+    margin: 10px 0 0 24px;
+}
+.meizu17_small li{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0 27px;
+}
+.meizu17_small li img{
+    width: 100%;
+    height: 100%;
+}
+.collection_contrast{
+    width: 560px;
+    height: 49px;
+    padding: 10px 56px 0;
+}
+.collection{
+    height: 49px;
+    width: 26px;
+    float: left;
+}
+.collection_contrast img{
+    width: 18px;
+    height: 20px;
+    margin-left: 4px;
+}
+.collection_contrast span{
+    font-size: 12px;
+}
+.contrast{
+    height: 49px;
+    width: 26px;
+    float: left;
+    margin-left: 50px;
+}
+.meizu17_shop_news{
+    float: right;
+    height: 734px;
+    width: 650px;
+    user-select: none;
+}
+.shop_news_phone{
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #262626;
+    padding-top: 54px;
+}
+.shop_news_model{
+    display: block;
+    font-size: 14px;
+    color: #e22841;
+    width: 640px;
+    word-wrap:break-word;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+.shop_news_3{
+    width: 650px;
+    height: 100px;
+    background-color: #f4f4f4;
+}
+.shop_news_3 em{
+    font-style: normal;
+    display: block;
+    color: #e02b41;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 66px;
+    margin-left: 14px;
+}
+.shop_news_3 em b{
+    font-style: normal;
+    font-size: 20px;
+}
+.shop_news_3_2{
+    height: 22px;
+}
+.shop_news_3_2 i{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #e02b41;
+    margin: 0 28px;
+}
+.shop_news_3_2  span{
+    font-size: 14px;
+    line-height: 22px;
+}
+.shop_news_3_2 s{
+    font-style: normal;
+    text-decoration: none;
+    color: #595959;
+    font-size: 14px;
+    line-height: 22px;
+    color: #008cff;
+    margin-left: 14px;
+}
+.shop_news_3_2 s a{
+    color: #008cff;
+}
+.shop_news_4{
+    width: 640px;
+    margin-left: 10px;
+    height: 18px;
+    padding: 18px 0;
+}
+.shop_news_4 span{
+    display:block;  
+    line-height: 18px;
+    float: left;
+}
+.shop_news_4 i{
+    display: block;
+    font-style: normal;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-left: 24px;
+    float: left;
+}
+.shop_news_4 i img{
+    width: 100%;
+    height: 100%;
+}
+.shop_news_5{
+    width: 640px;
+    margin-left: 10px;
+    height: 18px;
+    position: relative;
+}
+.shop_news_5 span{
+    display: block;
+    float: left;
+}
+.delivery_address{
+    color: black;
+    margin-left:30px;
+    float: left;
+}
+.delivery_address i{
+    font-style: normal;
+    display: block;
+    height: 18px;
+    width: 18px;
+    float: right;
+    margin-left: 10px;
+}
+.delivery_address i img{
+    width: 100%;
+    height: 100%;
+}
+.delivery_address2{
+    float: left;
+    margin-left: 86px;
+    line-height: 32px;
+}
+.shop_news_5_extend{
+    position: absolute;
+    width: 500px;
+    height: 116px;
+    border: 1px solid #000;
+    right: 120px;
+    background-color: #fff;
+    display: none;
+}
+.shop_news_5_extend .chose_top{
+  height: 38px;
+}
+.chose_top li{
+    display: block;
+    float: left;
+    margin-top: 8px;
+    width: 68px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #aaaaaa;
+    border-bottom: 1px solid #000;
+}
+.chose_top .frist{
+    border: 1px solid #000;
+    border-bottom: 0;
+}
+.chose_top .last{
+    width: 10px;
+    border: 0;
+    margin: 0;
+    border-bottom: 1px solid #000;
+    margin-top: 9px;
+}
+.chose_top .last1{
+    width: 260px;
+}
+
+.chose_bo span{
+  margin: 20px 20px;
+}
+.chose_bo2{
+    display: none;
+}
+.chose_bo3{
+    display: none
+}
+.shop_news_6{
+    width: 640px;
+    margin-left: 10px;
+    height: 90px;
+    float: left;
+    padding-top: 28px;
+}
+.shop_news_6 span{
+  line-height: 40px;
+  float: left;
+}
+.shop_news_6_2{
+    width: 565px;
+    height: 90px;
+    margin-left: 80px;
+}
+.shop_news_6_2 li{
+    float: left;
+    width: 174px;
+    line-height: 40px;
+    margin: 0 10px 10px 0;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #999999;
+    color: #666;
+}
+.shop_news_6_2 li em{
+    font-style: normal;
+}
+.shop_news_6_2 .li_bor{
+    border: 1px solid #000;
+    color: #000;
+}
+.shop_news_6_2 .li_2 i{
+ width: 32px;
+ height: 32px;
+ display: block;
+ float: left;
+ margin-left: 50px;
+ margin-top: 5px;
+}
+.shop_news_6_2 .li_2 img{
+    width: 100%;
+    height: 100%;
+}
+.shop_news_7{
+    width: 640px;
+    margin-left: 10px;
+    height: 40px;
+    float: left;
+    margin-top: 30px;
+}
+.shop_news_7 span{
+    float: left;
+    line-height: 40px;
+}
+.shop_news_7_2{
+    float: left;
+    width: 174px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #000;
+    color: #000;
+    margin-left: 30px;
+}
+.shop_news_8{
+    width: 640px;
+    margin-left: 10px;
+    height: 40px;
+    float: left;
+    margin-top: 30px;
+}
+.shop_news_8 span{
+    float: left;
+    line-height: 40px;
+}
+.shop_news_6_2 li i{
+    font-style: normal;
+    color: red;
+    font-size: 12px;
+}
+.shop_news_8 .shop_news_6_2 li p{
+    line-height: 30px;
+}
+.shop_news_8 .shop_news_6_2 li s{
+    display: block;
+    line-height: 20px;
+    text-decoration: none;
+}
+.shop_news_9{
+    width: 640px;
+    margin-left: 10px;
+    height: 40px;
+    float: left;
+    margin-top: 30px;
+}
+.shop_news_9 span{
+    float: left;
+    line-height: 40px;
+}
+.shop_news_9_2{
+    width: 565px;
+    height: 90px;
+    margin-left: 80px;
+}
+.shop_news_9_2 .subtract{
+    width: 30px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    background: #f7f7f7;
+    float: left;
+    user-select: none;
+}
+.shop_news_9_2 .quantity{
+    width: 40px;
+    height: 40px;
+    background: #f7f7f7;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+    color: #333;
+    user-select: none;
+}
+.shop_news_9_2 .plus{
+    width: 30px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    background: #f7f7f7;
+    float: left;
+    margin-left: 5px;
+    user-select: none;
+}
+.shop_news_10{
+    width: 640px;
+    margin-left: 10px;
+    height: 46px;
+    float: left;
+    margin-top: 30px;
+    user-select: none;
+}
+.buy{
+    float: left;
+    height: 66px;
+    width: 208px;
+    color: #fff;
+    background-color: #008cff;
+    line-height: 66px;
+    text-align: center;
+    font-size: 14px;
+}
+.join_car{
+    float: left;
+    height: 64px;
+    width: 206px;
+    color: #008cff;    
+    margin-left: 30px;
+    border: 1px solid #008cff;
+    line-height: 66px;
+    text-align: center;
+    font-size: 14px;
+}
+.content{
+    height: 30200px;
+    background-color: #f4f4f4;
+}
+.details{
+    font-size: 24px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    color: #000;
+}
+.goods_pic img{
+    width: 100%;
+}
+.pic_top{
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+.footstep{
+    position: relative;
+    top: 90px;
+}
+.serve{
+    position: absolute;
+}
+.footstep_serve{
+    height: 85px;
+    float: left;
+}
+.serve li{
+    display: block;
+    float: left;
+    width: 150px;
+    height: 69px;
+    text-align: center;
+}
+.serve li img{
+    width: 50px;
+    height: 39px;
+    margin: 0 50px;
+}
+.serve li span{
+    line-height: 30px;
+    color: #999;
+}
+.customer_service{
+   float: right;
+   margin-left: 170px;
+   margin-top: -20px;
+}
+.customer_service span{
+    color: #999;
+    font-size: 12px;
+    line-height: 30px;
+    float: right;
+}
+.customer_service p{
+    color: #008cff;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -6px;
+    line-height: 40px;
+}
+.customer_service i{
+    font-style: normal;
+    float: right;
+    height: 30px;
+    padding: 0 16px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 3px;
+   display: block;
+    font-size: 14px;
+    background: #008cff;
+}
+.footstep_row{
+    height: 55px;
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 28px;
+    width: 1240px;
+}
+.footstep_row ul li{
+    float: left;
+    height: 18px;
+}
+.footstep_row ul li a{
+    color: #999;
+}
+.footstep_row b{
+    display: block;
+    float: left;
+    width: 1px;
+    height: 18px;
+    margin: 0 17px;
+    background-color: #999;
+}
+.footstep_row ol{
+    float: left;
+    height: 36px;
+    margin-top: 6px;
+}
+.footstep_row ol li{
+    display: block;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 15px;
+    color: #999;
+}
+.footstep_row ol li i{
+    display: block;
+    width: 14px;
+    height: 18px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 4px;
+}
+.footstep_row ol li i img{
+    width: 100%;
+    height: 100%;
+}
+.footstep_row ol li s{
+    display: block;
+    width: 20px;
+    height: 18px;
+    float: left;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+.footstep_row ol li s img{
+    width: 100%;
+    height: 100%;
+}
+.footstep_share{
+    float: right;
+   height: 36px;
+   margin-top: 6px;
+   
+}
+.footstep_share div{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.footstep_share img{
+    width: 100%;
+    height: 100%;
+}
+.share2{
+    position: relative;
+}
+.wei_big{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: -150px;
+    right: 0;
+    display: none;
+}
+.wei_big img{
+    width: 100%;
+    height: 100%;
+}
+.xiao_big{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: -150px;
+    right: 0;
+    display: none;
+}
+.xiao_big img{
+    width: 100%;
+    height: 100%;
+}
